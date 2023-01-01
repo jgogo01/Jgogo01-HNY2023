@@ -48,7 +48,6 @@
     }
     function playHNY() {
         var video = document.getElementById("hnyVideo");
-        video.currentTime = 200;
         video.play();
         video.addEventListener('ended', () => {
             document.getElementById("divVideo").style.display = "none";
